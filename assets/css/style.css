@@ -1,0 +1,390 @@
+/*  about me page */
+body {
+    margin: 0;
+    background-image: url("/Users/jennyhernandez/Desktop/BasicPortfolio/full-bloom/full-bloom.png"); 
+}
+header {
+    background-color: white;
+    margin: 0px;
+}
+
+.main-header {
+    width: 960px;
+    background-color: white;
+    margin-left: 197px;
+    height: 80px;
+}
+
+.about-me {
+    background-color: #4aaaa5;
+    width: 240px;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    height:75px;
+    text-align: center;
+    padding: 2px;
+}
+
+a.about-me-button:visited{
+    text-decoration: none;
+    color:white;
+}
+
+
+.nav-bar {
+    background-color: white;
+    margin-left: 487px;
+    font-size: 18px;
+    word-spacing: 25px;
+    display: inline-block;
+}
+
+a {
+text-decoration: none;
+color:#cccccc;
+} 
+
+a:hover   {
+    color: #4aaaa5;
+}
+
+/***** STARTING MAIN CONTENT ****/
+
+
+
+.main {
+    border: 1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: whitesmoke;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.underline {
+    border-bottom: 3px solid #cccccc;
+    width: 860px;
+    margin: 0 auto;
+}
+p {
+    line-height: 25px;
+}
+
+.img {
+    padding: 10px;
+}
+
+
+footer {
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    border-top: 4px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
+    margin-top: 125px;
+}
+
+
+/* end of about me page*/
+
+/*  Gallery page portfolio.html */
+
+.header {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 110px
+}
+
+.underline2 {
+    border-bottom: 3px solid #cccccc;
+    width: 560px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    border: 1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    height: 700px;
+    color: #777777;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+/* .main2 {
+    margin-left: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} */
+
+.hangman {
+    /* border: 1px solid green; */
+    width: 180px;
+    margin-left: 130px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.logo1 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 175px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+.rpg-games {
+    /* border: 1px solid blue; */
+    width: 180px;
+    position: relative;
+    left: 400px;
+    bottom: 175px;
+}
+
+.logo2 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 175px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+.trivia {
+    /* border: 2px solid orange; */
+    width: 180px;
+    margin-left: 130px;
+    position: relative;
+    bottom: 150px;
+}
+
+.logo3 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 175px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+.rutgers {
+    /* border: 2px solid pink; */
+    width: 180px;
+    position: relative;
+    bottom: 325px;
+    left: 400px;
+}
+
+.logo4 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 175px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    padding-bottom: 9px;
+} 
+
+.rps {
+    /* border: 2px solid yellow; */
+    width: 180px;
+    margin-left: 130px;
+    position: relative;
+    bottom: 300px;
+}
+
+.logo5 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 175px;
+    height: 45px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* end gallery page */
+
+
+/* contact page */
+
+.heading {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: #777777;
+}
+
+.underline3 {
+    border-bottom: 3px solid #cccccc;
+    width: 560px;
+    margin: 0 auto;
+}
+
+.form {
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin: 0 auto;
+    height: 650px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    width: 750px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.title {
+    color: #777777;
+    font-size: 18px;
+    line-height: 1px;
+    text-align: left;
+    padding-left: 60px;
+    position: relative;
+    top: 50px;
+}
+
+.message {
+    position: relative;
+    left: -277px;
+    top: 15px;
+    color: #777777;
+    font-size: 18px;
+}
+
+input {
+    width: 445px; 
+    height: 33px;
+}
+
+textarea {
+    margin-top: -40px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 20px;
+    margin-right: 380px;
+}
+
+footer {
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    border-top: 4px solid #4aaaa5;
+    width: 100%;
+    margin-top: 70px;
+    position: relative;
+    bottom: 0px;
+    height: 60px;
+}
+
+/* end of contact page */
+
+ @media screen and (max-width: 980px) {
+    
+    .main-header {
+        width: 100%;  
+        max-width: 980px;
+    }
+
+    .about-me {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .nav-bar {
+        width: 100%;
+        /* margin-bottom: 50px;
+        height: 50px; */
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .main, .underline {
+        background-color: purple;
+        width: 70%;  
+        margin: 0 auto;
+    }
+ }
+
+
+@media screen and (max-width: 768px) {
+    
+    .main-header {
+        width: 100%;  
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .about-me {
+       width: 100%;
+       margin: 0 auto;
+    }
+
+    .nav-bar {
+        width: 100%;
+        margin-bottom: 50px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .main {
+        background-color: black;
+        width: 70%;  
+        /* margin: 0 auto; */
+        margin-top: 50px;
+    }
+}
+
+ @media screen and (max-width: 640px) {
+    
+    .main-header {
+        width: 100%;
+        max-width: 640px; 
+        margin: 0 auto; 
+    }
+
+    .about-me {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-bar {
+        width: 100%;
+        margin-bottom: 50px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .main {
+        background-color: white;
+        width: 70%;  
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 40px;
+    }  
+
+    .img {
+        width: 400px;
+        height: 400px;
+    }
+}
