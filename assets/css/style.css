@@ -302,25 +302,32 @@ footer {
     .main-header {
         width: 100%;  
         max-width: 980px;
+        margin: 0 auto;
     }
 
     .about-me {
-        width: 50%;
+        width: 40%;
         margin: 0 auto;
     }
 
     .nav-bar {
-        width: 100%;
-        /* margin-bottom: 50px;
-        height: 50px; */
+        width: 40%;
+        /* margin-bottom: 50px; */
+        height: 50px;
         margin: 0 auto;
         text-align: center;
+        margin-top: -50px;
+        margin-left:365px;
     }
     
-    .main, .underline {
+    .main{
         background-color: purple;
         width: 70%;  
         margin: 0 auto;
+    }
+
+    .underline {
+        width: 90%;
     }
  }
 
@@ -334,23 +341,29 @@ footer {
     }
 
     .about-me {
-       width: 100%;
+       width: 50%;
        margin: 0 auto;
     }
 
     .nav-bar {
-        width: 100%;
-        margin-bottom: 50px;
+        width: 50%;
+        /* margin-bottom: 50px; */
         height: 50px;
         margin: 0 auto;
         text-align: center;
+        margin-top: -50px;
+        margin-left:365px;
     }
     
     .main {
         background-color: black;
         width: 70%;  
-        /* margin: 0 auto; */
-        margin-top: 50px;
+        margin: 0 auto;
+        padding:40px;
+    }
+
+    .underline {
+        width: 90%;
     }
 }
 
@@ -384,7 +397,11 @@ footer {
     }  
 
     .img {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .underline {
+        width: 90%;
     }
 }
