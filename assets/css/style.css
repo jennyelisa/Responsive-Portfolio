@@ -326,8 +326,14 @@ footer {
         margin: 0 auto;
     }
 
-    .underline {
+    .underline, .underline2, .underline3 {
         width: 90%;
+    }
+    
+    .portfolio {
+        width: 70%;
+        background-color: pink;
+        margin: 0 auto;
     }
  }
 
@@ -362,8 +368,15 @@ footer {
         padding:40px;
     }
 
-    .underline {
+    .underline, .underline2, .underline3 {
         width: 90%;
+    } 
+    
+    .portfolio {
+        width: 70%;
+        background-color: yellowgreen;
+        margin: 0 auto;
+        padding:40px;
     }
 }
 
@@ -401,7 +414,19 @@ footer {
         height: 350px;
     }
 
-    .underline {
+    .underline, .underline2, .underline3 {
         width: 90%;
+    }
+    
+    .portfolio {
+        width: 70%;
+        background-color: blue;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 40px;
+    }
+
+    .main-content {
+        display: inline-block;
     }
 }
