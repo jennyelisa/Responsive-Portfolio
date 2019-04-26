@@ -22,15 +22,15 @@
         <div class="form">
             <form>
                 <h1 class="heading">Contact</h1>
-                <div class="underline3"></div>
-                <p class="title">Name:</p>
-                <br><input type="text" name="name" placeholder="Name">
+                <div class="underline"></div>
+                <!-- <label for="name" class="title">Name:</label> -->
+                <input type="text" id="name" name="name" placeholder="Name" required="required">
                 <br>
-                <p class="title">Email:</p>
-                <br><input type="text" name="email" placeholder="Email">
+                <!-- <label for="email" class="title">Email:</label> -->
+                <input type="email" id="email" name="email" placeholder="Email" required="required">
                 <br>
-                <p class="message">Message:</p>
-                <br><textarea rows="15" cols="70" placeholder="Message"></textarea>
+                <!-- <label for="message">Message</label> -->
+                <br><textarea rows="15" cols="50" placeholder="Message"></textarea>
                 <br>
                 <button class="submit">Submit</button>
             </form>
