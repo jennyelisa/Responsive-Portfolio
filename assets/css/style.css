@@ -22,7 +22,7 @@
 /*  about me page */
 body {
     margin: 0;
-    background-image: url("/Users/jennyhernandez/Desktop/BasicPortfolio/full-bloom/full-bloom.png"); 
+    background-image: url("full-bloom/full-bloom.png"); 
 }
 header {
     background-color: white;
