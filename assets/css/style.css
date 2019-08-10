@@ -2,7 +2,7 @@
 #body {
     margin: 0;
     background-image: url(../../full-bloom/full-bloom.png);
-    /* background-color: #e6e6ff; */
+    background-color: #e6e6ff;
 }
 
 p {
@@ -18,6 +18,20 @@ p {
 .nav-link:hover {
     color: navy;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  height: 60px;
+ } 
+
+ footer a{
+    font-size: 24px;
+    color: navy;
+ }
 
 
 /*  about me page */
@@ -40,15 +54,6 @@ p {
 
 }
 
-footer {
-    background-color: darkgrey;
-    text-align: center;
-    color: white;
-    border-top: 4px solid #4aaaa5;
-    position: fixed;
-    width: 100%;
-    margin-top: 50%;
-}
 
 /* end of about me page*/
 
@@ -106,76 +111,33 @@ footer {
 
 /* contact page */
 
-.heading {
-    font-size: 24px;
-    text-align: left;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    color: #777777;
+
+.form-control, label {
+    margin-left: 50%;
 }
 
-.form {
-    border: 1px solid #cccccc;
-    text-align: center;
-    margin: 0 auto;
-    height: 650px;
-    margin-top: 30px;
-    background-color: whitesmoke;
-    padding-top: 50px;
-    width: 750px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+
+.nav-con {
+    margin-top: -75px;
 }
 
-.title {
-    color: #777777;
-    font-size: 18px;
-    line-height: 1px;
-    text-align: left;
-    padding-left: 60px;
-    position: relative;
-    top: 50px;
+.jumbo-contact {
+    /* background-image: url(../images/bg2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #d1bfe0;
+    
 }
-
-#contact-info {
-    background-color: lawngreen;
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 5%
-}
-
-.textarea {
-   background-color: yellow;
-}
-
-input {
-    width: 50%;
-    height: 35px;
-    margin: 15px;
-}
-
 
 .submit {
     background-color: #777777;
     color: white;
     font-size: 18px;
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
     margin-top: 20px;
     margin: 0 auto;
 }
 
-footer {
-    background-color: darkgrey;
-    text-align: center;
-    color: white;
-    border-top: 4px solid #4aaaa5;
-    width: 100%;
-    margin-top: 50%;
-    /* position: relative; */
-    bottom: 0px;
-    height: 60px;
 
-}
 
 /* end of contact page */
 
