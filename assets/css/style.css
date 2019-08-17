@@ -60,17 +60,22 @@ footer {
 
 
 /*  portfolio.html */
-/*this is for portfolio and contact? */
+.media {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow-y: auto;
+}
 
 
-/* .underline {
+ /* .underline {
     border-bottom: 3px solid #cccccc;
     margin: 0 auto;
     width: 70%
 } */
 
-
-/* #main-content {
+/* 
+ #main-content {
     width: 70%;
     border: 1px solid #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -80,9 +85,8 @@ footer {
     position: relative;
     height: 800px;
     margin-bottom: 10%;
-} */
-
-/* .logo {
+}  */
+ /* .logo {
     background-color: #4aaaa5;
     width: 100%;
     color: white;
@@ -103,7 +107,7 @@ footer {
     margin: 20px;
     position: relative;
     border-radius: 35px;
-} */
+}  */
 
 
 /* end gallery page */
