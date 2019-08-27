@@ -76,43 +76,26 @@ footer {
 /* contact page */
 
 
-.form-control, label {
+/* .form-control, label {
     margin-left: 50%;
+} */
+
+.instruction {
+    text-align: center;
+    border: 3px dotted black;
+    margin-left: 50%;
+    background-color: lavenderblush;
+    border-radius: 50px;
 }
 
-
-.nav-con {
-    margin-top: -75px;
-}
-
-.contact {
-    background-color: #FFD7E7;
-   border-radius: 25px;
-    
-    
-}
-
-.submit {
+button {
     background-color: #777777;
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
     margin: 0 auto;
 }
 
 form {
     font-size: 26px;
 }
-
-.cartoon {
-    height: 350px;
-    width: 350px;
-}
-
-.cartoon {
-    margin: -30% 75%;
-}
-
 
 
 /* end of contact page */
