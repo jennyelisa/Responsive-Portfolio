@@ -39,9 +39,8 @@ footer {
 
 
 .img {
-    margin-top: -5%;
-    margin-right: 4%;
     border-radius: 25%;
+    text-align:left; 
 }
 
 #card-info {
@@ -68,49 +67,7 @@ footer {
 }
 
 
- /* .underline {
-    border-bottom: 3px solid #cccccc;
-    margin: 0 auto;
-    width: 70%
-} */
-
-/* 
- #main-content {
-    width: 70%;
-    border: 1px solid #cccccc;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 0 auto;
-    color: #777777;
-    background-color: whitesmoke;
-    position: relative;
-    height: 800px;
-    margin-bottom: 10%;
-}  */
- /* .logo {
-    background-color: #4aaaa5;
-    width: 100%;
-    color: white;
-    position: absolute;
-    bottom: 5px;
-    text-align: center;
-    padding: 9px 0;
-    border-radius: 25px;
-}
-
-.item-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.item-group .portfolio-item {
-    margin: 20px;
-    position: relative;
-    border-radius: 35px;
-}  */
-
-
-/* end gallery page */
+/* end portfolio page */
 
 
 /* contact page */
@@ -157,194 +114,85 @@ form {
 
 /* end of contact page */
 
+/* mobile responsive stuff */
+
 @media screen and (max-width: 980px) {
-
-    #main-content {
-        width: 70%;
-        border: 1px solid #cccccc;
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        margin: 0 auto;
-        color: #777777;
-        background-color: whitesmoke;
-        position: relative;
-        height: 175%;
-        margin-bottom: 10%;
-    }
-
-    .main-header {
+    /* about me */
+    .navbar, .collapse {
         width: 100%;
-        max-width: 980px;
-        margin: 0 auto;
     }
-
-    .about-me {
-        width: 40%;
-        margin: 0 auto;
-    }
-
-    .nav-bar {
-        width: 40%;
-        height: 50px;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: -50px;
-        margin-left: 365px;
-    }
-
-    .main {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .underline {
+    #card-info {
         width: 90%;
     }
+       /* about me */
 
-    .portfolio {
-        margin: 0 auto;
-    }
+    /* portfolio */
+    /* portfolio */
 
-    .form {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 50px;
-        padding: 40px;
-    }
+    /* contact */
+    /* contact */
 }
 
 
 @media screen and (max-width: 768px) {
-
-
-    #main-content {
-        width: 70%;
-        border: 1px solid #cccccc;
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        margin: 0 auto;
-        color: #777777;
-        background-color: whitesmoke;
-        position: relative;
-        height: 175%;
-        margin-bottom: 10%;
-    }
-
-    .main-header {
+    
+    /* aboutme */
+    .navbar {
         width: 100%;
-        max-width: 768px;
-        margin: 0 auto;
     }
+    #card-info {
+        width: 90%;
+    }  
 
-    .about-me {
-        width: 50%;
-        margin: 0 auto;
+   /* .img {
+       width: auto;
+       height: auto;
+   } */
+    .name {
+        color: yellowgreen;
+        margin-top: -35px;
     }
+    /* about me */
 
-    .nav-bar {
-        width: 50%;
-        /* margin-bottom: 50px; */
-        height: 50px;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: -50px;
-        margin-left: 365px;
-    }
+    /* portfolio */
+    /* portfolio */
 
-    .main {
-        width: 70%;
-        margin: 0 auto;
-        padding: 40px;
-    }
+    /* contact */
+    /* contact */
 
-    .portfolio {
-        margin: 0 auto;
-        padding: 40px;
-    }
-
-    .form {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 50px;
-        padding: 40px;
-    }
 }
+
 
 @media screen and (max-width: 640px) {
-
-    #main-content {
-        width: 70%;
-        border: 1px solid #cccccc;
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        margin: 0 auto;
-        color: #777777;
-        background-color: whitesmoke;
-        position: relative;
-        height: 175%;
-        margin-bottom: 10%;
-    }
-
-    .main-header {
+    /* about me */
+    .navbar {
         width: 100%;
-        max-width: 640px;
-        margin: 0 auto;
     }
-
-    .about-me {
-        width: 100%;
-        margin: 0 auto;
+    #card-info {
+        width: 90%;
     }
-
-    .nav-bar {
-        width: 100%;
-        margin-bottom: 50px;
-        height: 50px;
-        margin: 0 auto;
-        text-align: center;
+  
+    .intro {
+        width: 90%;
     }
+    /* about me */
 
-    .main {
-        background-color: white;
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 50px;
-        padding: 40px;
-    }
+    /* portfolio */
+    /* portfolio */
 
-
-    .img {
-        height: auto;
-        max-width: 100%;
-        width: 350px;
-        height: 350px;
-    }
-
-
-
-    .portfolio {
-        margin: 0 auto;
-        margin-top: 50px;
-        padding: 40px;
-    }
-
-    .item-group {
-        justify-content: center;
-    }
-
-    .main-content {
-        column-count: 1;
-        column-width: 250px;
-    }
-
-    .form {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 50px;
-        padding: 40px;
-    }
-
-    .message {
-        color: #777777;
-        font-size: 18px;
-        margin-right: 80%;
-        margin-bottom: 5%;
-    }
+    /* contact */
+    /* contact */
 }
+
+/* @media screen and (max-width: 320px) {
+    .navbar {
+        width: 100%;
+    }
+    #card-info {
+        width: 90%;
+    }
+} */
+
+
+/* mobile responsive stuff */
+
