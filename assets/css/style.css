@@ -60,10 +60,13 @@ footer {
 
 /*  portfolio.html */
 .media {
-    width: 60%;
     margin: 0 auto;
     margin-top: 50px;
     overflow-y: auto;
+}
+
+.project-header {
+    font-size: 25px;
 }
 
 
@@ -127,6 +130,9 @@ form {
        /* about me */
 
     /* portfolio */
+    .media-body {
+        text-align: justify;
+    }
     /* portfolio */
 
     /* contact */
@@ -155,6 +161,9 @@ form {
     /* about me */
 
     /* portfolio */
+    .media-body {
+        text-align: justify;
+    }
     /* portfolio */
 
     /* contact */
@@ -178,20 +187,14 @@ form {
     /* about me */
 
     /* portfolio */
+    .media-body {
+        text-align: justify;
+    }
     /* portfolio */
 
     /* contact */
     /* contact */
 }
-
-/* @media screen and (max-width: 320px) {
-    .navbar {
-        width: 100%;
-    }
-    #card-info {
-        width: 90%;
-    }
-} */
 
 
 /* mobile responsive stuff */
