@@ -89,16 +89,20 @@ footer {
 }
 
 .links {
-    width:50%;
+    width:60%;
     text-align: center;
     margin: 0 auto;
     margin-top: 5%;
     font-size: 28px;
 }
-.links card {
+.links{
     border-radius:50px;
 }
 
+.links a:link {
+    background-color: lightpink;
+}
+/* 
 button {
     background-color: #777777;
     margin: 0 auto;
@@ -106,7 +110,9 @@ button {
 
 form {
     font-size: 26px;
-}
+} */
+
+
 
 
 /* end of contact page */
